@@ -1,0 +1,5 @@
+<!ELEMENT t (TableIdentifier, Row*)>
+<!ELEMENT TableIdentifier (name)>
+<!ELEMENT Row (name)>
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST name type CDATA "varchar">

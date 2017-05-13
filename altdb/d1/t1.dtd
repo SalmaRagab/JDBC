@@ -1,0 +1,7 @@
+<!ELEMENT t1 (TableIdentifier, Row*)>
+<!ELEMENT TableIdentifier (name, age)>
+<!ELEMENT Row (name, age)>
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST name type CDATA "varchar">
+<!ELEMENT age (#PCDATA)>
+<!ATTLIST age type CDATA "int">
